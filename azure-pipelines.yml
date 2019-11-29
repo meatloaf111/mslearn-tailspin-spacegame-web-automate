@@ -6,7 +6,7 @@ variables:
 
 stages:
 - stage: 'Build'
-  displayName: 'Build the web application with terraform'
+  displayName: 'Build the web application w/ terraform'
   jobs: 
   - job: 'Build'
     displayName: 'Build job'
